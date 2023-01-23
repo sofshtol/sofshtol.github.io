@@ -1,0 +1,29 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header-custom {
+    width: 100%;
+    background: rgba(232, 241, 255, 0.8);
+}
+.header-bg {
+    min-height: 400px;
+    background-image: url("resources/img/novorossijsk_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+.logo-block {
+    padding-top: 20px;
+}
+
+.logo-block-text {
+    font-size: 15pt;
+    font-weight: 700;
+    text-align: center;
+}
+
+.nav-link {
+    font-weight: 400;
+    color: #000;
+}
