@@ -1,0 +1,86 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header-custom {
+    width: 100%;
+    background: rgba(232, 241, 255, 0.8);
+}
+.header-bg {
+    min-height: 400px;
+    background-image: url("resources/img/novorossijsk_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+.logo-block {
+    padding-top: 20px;
+}
+
+.logo-block-text {
+    font-size: 15pt;
+    font-weight: 700;
+    text-align: center;
+}
+
+.logo-block-img img {
+    height: 55px;
+    width: auto;
+}
+
+@media screen and (min-width: 600px) {
+    .logo-block-img {
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        z-index: 2;
+    }
+    .logo-block-img img {
+        height: 110px;
+        width: auto;
+    }
+}
+
+.nav-link {
+    font-weight: 400;
+    color: #000;
+}
+ 
+/* ABOUT US */
+.card {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #054b86;
+}
+
+h1 {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h3 {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+@media screen and (min-width: 600px) {
+    .card-body {
+        width: 350px;
+    }
+  }
+
+ul {
+    list-style-type: circle;
+}
+
+.functions-description {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
